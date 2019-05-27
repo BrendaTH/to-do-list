@@ -101,7 +101,7 @@
         },
 
         displayAnotherActiveItemOnPage: function(item) {
-            var myString = '<input type="radio" name="rbtnCount" id="' + item + '" value="' + item + '"/><label> ' + item + '</label><br/>';
+            var myString = '<input type="radio" name="rbtnCount" id="' + item + '" value="' + item + '"/><label class="bigger-font"> ' + item + '</label><br/>';
             console.log(myString);
             var radioButton = $(myString);
             radioButton.appendTo('#target');
@@ -127,7 +127,7 @@
                 } else {
                     checked = "";
                 }
-                aStr = '<input type="' + theType + '" name="rbtnCount" id="' + itemToAdd + '" value="' + itemToAdd + '"' + checked + '/><label> ' + itemToAdd + '</label><br/>';
+                aStr = '<input type="' + theType + '" name="rbtnCount" id="' + itemToAdd + '" value="' + itemToAdd + '"' + checked + '/><label class="bigger-font"> ' + itemToAdd + '</label><br/>';
                 console.log(aStr);
                 var theInput= $(aStr);
                 theInput.appendTo('#target');
