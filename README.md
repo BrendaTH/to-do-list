@@ -1,6 +1,6 @@
 # Repo Name: to-do-list
 
-## **GITHUB Location: https://github.com/BrendaTH/to-do-list
+## GITHUB Location: https://github.com/BrendaTH/to-do-list
 
 ## To Do List Operation
 This is a simple to-do list generator. It was built during week4 of the coding boot-camp.
