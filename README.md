@@ -1,17 +1,33 @@
-**To Do List**
+# Repo Name: to-do-list
 
-This is a to-do list generator. To get started go [here:](https://brendath.github.io/to-do-list/)
+## **GITHUB Location: https://github.com/BrendaTH/to-do-list
 
-**active items to do**
-Type an item that needs to be done in the form box. On return it is added to the active list of items to be done. 
+## To Do List Operation
+This is a simple to-do list generator. It was built during week4 of the coding boot-camp.
 
-**completed items**
-When an item is completed check the radio button beside the item to add it to the completed items. 
+Enter items that need to be done in the input box, followed by the return/enter key.
+As each item is entered it is listed along with a radio button below the input box.
 
-**display controls**
-Buttons at the bottom of the page allow you to display 'all' items, 'active' items, or 'completed' items. 
+To indicate an item is completed check the radio button next to the item. 
+The radio button will turn to a blue checkbox to indicate the item has been completed.
 
-**removing completed items**
-To remove all completed items select the 'clear completed' button at the bottom of the screen.
+
+## Buttons
+The following buttons are found at the bottom of the page:
+* **all**       Display all items 
+* **active**    Display active items only
+* **completed** Display completed items only
+
+When there are completed items in the list a **Clear Completed** button appears.
+This allows the user to clear all the comleted items from the list. When there are no longer any
+completed items in the list the **Clear Completed** button disappears.
+
+## Future Enhancements
+* The radio buttons need to be larger for operation on phone size screens
+* For persistence the list should be saved in Firebase. Currently screen refresh causes the list to be lost
+
+
+
+
 
 
