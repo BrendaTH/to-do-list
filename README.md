@@ -25,6 +25,7 @@ completed items in the list the **Clear Completed** button disappears.
 ## Future Enhancements
 * The radio buttons need to be larger for operation on phone size screens
 * For persistence the list should be saved in Firebase. Currently screen refresh causes the list to be lost
+* Convert the to-do-list to bootstrap for just the plain ease of dealing with it
 
 ## To get started go to:
 To get started go [https://brendath.github.io/to-do-list/](https://brendath.github.io/to-do-list)
